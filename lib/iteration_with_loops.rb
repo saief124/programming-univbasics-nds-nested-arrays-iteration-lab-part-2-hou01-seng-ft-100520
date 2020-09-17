@@ -7,7 +7,7 @@ row_index=0
   element_index=0
   smallest_integer_element=100
     while element_index<src[row_index].count do
-      if src[row_index][element_index]<smallest_integer_element]
+      if src[row_index][element_index]<smallest_integer_element
         smallest_integer_element=src[row_index][element_index]
       end
     element_index +=1
