@@ -12,9 +12,9 @@ row_index=0
       end
     element_index +=1
     end
-  outer_results << smallest_integer_element  
+  outer_results << smallest_integer_element
   row_index +=1
-  
+
   end
   outer_results
 end
