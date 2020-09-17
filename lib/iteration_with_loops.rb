@@ -9,9 +9,12 @@ row_index=0
     while element_index<src[row_index].count do
       if src[row_index][element_index]<src[row_index][element_index+1]
         smallest_integer_element=src[row_index][element_index]
-    end
+      end
     element_index +=1
-  end
+    end
+  outer_results << smallest_integer_element  
   row_index +=1
-  smallest_integer_element
+  
+  end
+  outer_results
 end
